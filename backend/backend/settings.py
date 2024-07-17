@@ -1,3 +1,4 @@
+"""Module."""
 import os
 from pathlib import Path
 
@@ -60,17 +61,17 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-#DATABASES = {
+# DATABASES = {
 #    'default': {
 #        'ENGINE': 'django.db.backends.sqlite3',
 #        'NAME': BASE_DIR / 'db.sqlite3',
 #    }
-#}
+# }
 
 DATABASES = {
     'default': {
-        #'ENGINE': 'django.db.backends.sqlite3',
-        #'NAME': '/data/db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': '/data/db.sqlite3',
         # Меняем настройку Django: теперь для работы будет использоваться
         # бэкенд postgresql
         'ENGINE': 'django.db.backends.postgresql',
