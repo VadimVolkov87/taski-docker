@@ -5,7 +5,7 @@ from .models import Task
 
 
 class TaskAdmin(admin.ModelAdmin):
-    """Adminka."""
+    """класс Adminka."""
 
     list_display = ('title', 'description', 'completed')
 
